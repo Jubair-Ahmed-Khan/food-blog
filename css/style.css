@@ -7,6 +7,9 @@ body{
     font-family: 'Poppins', sans-serif;
     margin:0;
 }
+h2{
+    margin-bottom:5%;
+}
 .red{
     color:red;
 }
@@ -14,7 +17,7 @@ body{
 .header{
     display:flex;
     /*background-color:orange;*/
-    margin-bottom:5%;
+    margin-bottom:7%;
 }
 .logo{
     width:65%;
@@ -39,10 +42,10 @@ body{
     padding: 14px 16px;
     font-size:16px;
 }
-.top-banner{
+.top-section{
    /* background-color:yellow;*/
 }
-.top-banner p{
+.top-section p{
     text-align:justify;
     margin-bottom:8%;
 }
@@ -56,8 +59,7 @@ body{
 }
 .half-width h1{
     font-size:35px;
-    font-weight:300;
-    color:#3d3c3c;
+    font-weight:800;
 }
 .half-width p{
     margin-top:2%;
@@ -74,3 +76,25 @@ body{
     padding:10px 30px;
     border-radius:20px;
 }
+.mid-section{
+    background-image:url("../images/mid-bg.jpg");
+    background-repeat:no-repeat;
+}
+.mid-section .half-width{
+    padding-right:10%;
+}
+.mid-section p{
+    text-align:justify;
+    margin-bottom:8%;
+}
+.mid-section .half-width{
+    margin-top:5%;
+}
+.half-width .mid-image{
+    width:60%;
+}
+.about-me{
+    width:100%;
+    margin-top:5%;
+}
+
